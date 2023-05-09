@@ -56,3 +56,9 @@ clean:
 	rm -rf ./build/tier.wasm.gz
 	rm -rf ./build/ido.wasm
 	rm -rf ./build/ido.wasm.gz
+
+#.PHONY: create-test-env
+#create-test-env:
+#secretcli config node https://rpc.pulsar.scrttestnet.com
+#secretcli config output json
+#secretcli config chain-id pulsar-2
